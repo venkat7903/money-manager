@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.transaction-titles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding: 0px 10px;
+  flex-grow: 1;
+}
+
+.transaction-details-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  flex-grow: 1;
+}
+
+.transaction {
+  flex-grow: 1;
+  font-size: 13px;
+}
+
+.tranc-title {
+  flex-grow: 1;
+}
+
+.amount {
+  flex-grow: 1;
+}
+
+.expense {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  width: 10%;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-img {
+  width: 25px;
+}

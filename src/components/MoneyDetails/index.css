@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.money-details-container {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.money-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ecfccb;
+  border: 1px solid #84cc16;
+  padding: 15px 8px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+  }
+
+  .money-detail {
+    margin-right: 10px;
+  }
+}
+
+.img {
+  width: 50px;
+  margin: 0px 20px 0px 15px;
+}
+
+.money {
+  margin: 0;
+  color: #334155;
+}
+
+.amount {
+  margin: 0;
+  font-size: 24px;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background: #ede9fe;
+  border: 1px solid #7c3aed;
+}
